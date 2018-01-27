@@ -18,5 +18,16 @@
   ],
   "lint": {
     "rules": ["polymer-2"]
-  }
+  },
+	"build": [
+		{
+			"preset": "es6-bundled"
+		},
+		{
+			"preset": "es5-bundled"
+		},
+		{
+			"preset": "es5-unbundled"
+		}
+	]
 }
